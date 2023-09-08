@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Testing fastify for nodejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint:fix":"npx eslint --fix src"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/barto9496/nodejs-fastify.git"
+    "url": "https://github.com/barto9496/nodejs-fastify"
   },
   "keywords": [
     "fastify"
@@ -18,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/barto9496/nodejs-fastify/issues"
   },
-  "homepage": "https://github.com/barto9496/nodejs-fastify#readme"
+  "homepage": "https://github.com/barto9496/nodejs-fastify#readme",
+  "dependencies": {
+    "fastify": "^4.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1"
+  }
 }
