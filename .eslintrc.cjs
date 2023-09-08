@@ -24,7 +24,6 @@ module.exports = {
     "rules": {
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
-        "block-spacing": ["error","always"],
-        "no-else-return": ["error", "always"]
+        "block-spacing": ["error", "always"],
     }
 }
