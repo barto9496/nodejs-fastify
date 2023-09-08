@@ -8,7 +8,7 @@
     "test": "test",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "lint:fix": "npx eslint --fix src"
+    "lint": "npx eslint --fix src"
   },
   "repository": {
     "type": "git",

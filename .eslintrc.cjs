@@ -25,5 +25,6 @@ module.exports = {
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
         "block-spacing": ["error", "always"],
+        "no-trailing-spaces": ["error", { "skipBlankLines": false }]
     }
 }

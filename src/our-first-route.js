@@ -23,19 +23,19 @@ async function route(fastify, options) {
         type: "object",
         required: ["animal"],
         properties: {
-          animal: { type: "string" },
+            animal: { type: "string" },
         },
-      };
-    
-      const schema = {
+    };
+
+    const schema = {
         body: animalBodyJsonSchema,
-      };
-    
-      fastify.post("/animals", { schema }, async (request, reply) => {
+    };
+
+    fastify.post("/animals", { schema }, async (request, reply) => {
         // we can use the `request.body` object to get the data sent by the client
         const result = await collection.insertOne({ animal: request.body.animal });
         return result;
-      });
+    });
 }
 
 export default route;
