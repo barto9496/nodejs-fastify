@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-fastify",
+  "version": "1.0.0",
+  "description": "Testing fastify for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/barto9496/nodejs-fastify.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Amogh Umesh Katti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barto9496/nodejs-fastify/issues"
+  },
+  "homepage": "https://github.com/barto9496/nodejs-fastify#readme"
+}
